@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import {MatButtonModule} from '@angular/material/button';
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -18,7 +20,8 @@ import { AuthModule } from './auth/auth.module';
     BrowserAnimationsModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

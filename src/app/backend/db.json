@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "email": "ejemplo1@gmail.com",
+      "identification": "name",
+      "password": "abc123"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "ejemplo2@gmail.com",
+      "identification": "name",
+      "password": "abc123"
+    }
+  ],
+  "loans": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "amount": 1,
+      "passed": true,
+      "paid_out": false,
+      "date": "2018-01-01 00:00:00",
+      "date_to_pay": "2018-01-01"
+    }
+  ]
+}
